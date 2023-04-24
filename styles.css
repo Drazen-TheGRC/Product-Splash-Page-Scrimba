@@ -45,6 +45,62 @@ p {
     text-transform: uppercase;
 }
 
+.fine-print{
+    
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    color: #858585;
+}
+
+
+input, 
+.btn {
+    box-sizing: border-box;
+    font-family: inherit;
+    width: 100%;
+    border-radius: 5px;
+}
+
+input {
+    padding: 0.5em;
+    margin-bottom: 0.75em;
+    
+    border: 2px solid #d1d5db;
+}
+
+input:focus{
+    outline: none;
+    
+    border-color: #8a71ec;
+    background-color: #e6e8ec;
+}
+
+.btn {
+    outline: none;
+    
+    font-weight: bold;
+    text-transform: uppercase;
+
+    border: none;
+    
+    padding: 1em;
+    
+}
+
+
+.btn-primary {
+    
+    color: white;
+    background-color: #8a71ec;
+    margin-top: 1em;
+}
+
+.btn-primary:hover,
+.btn-primary:focus{
+    background-color: #b7a7f6;
+    cursor: pointer;
+}
+
 /* =================
     Intro
    ================= */
@@ -63,7 +119,7 @@ p {
     min-height: 250px;
     text-align: center;
     color: #fff;
-    
+
     background-color: #9480e4;
 
     background-image: url(./images/intro-bg.png);
