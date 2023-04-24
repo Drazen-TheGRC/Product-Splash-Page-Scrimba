@@ -41,8 +41,21 @@ p {
 }
 
 .beta-text,
-.subheading {
+.subheading,
+.top-text {
     text-transform: uppercase;
+}
+
+.top-text {
+    font-size: 0.875rem;
+    font-weight: bold;
+    padding-top: 0.25em;
+    border-top: 5px solid;
+    order: -1;
+
+    margin: 0;
+    
+    margin: 0 auto;
 }
 
 .fine-print{
@@ -51,7 +64,7 @@ p {
     letter-spacing: 1px;
     color: #858585;
 }
-
+/**/
 
 input, 
 .btn {
@@ -114,8 +127,12 @@ input:focus{
     padding-right: 2em;
 }
 
+.main-content p, form{
+    max-width: 460px;
+}
+
 .intro { 
-    justify-content: center;
+    justify-content: space-between;
     min-height: 250px;
     text-align: center;
     color: #fff;
@@ -124,6 +141,10 @@ input:focus{
 
     background-image: url(./images/intro-bg.png);
     background-size: cover;
+
+    box-sizing: border-box;
+    padding-bottom: 1.25em;
+
 }
 
 /* ====================
@@ -136,6 +157,7 @@ input:focus{
 
     padding-top: 2.5em;
 
+    
 }
 
 .img-main {
